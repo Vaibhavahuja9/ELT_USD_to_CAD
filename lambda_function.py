@@ -50,6 +50,8 @@ existing_rows = len(sheet.get_all_values())
 
 sheet.append_rows(rows,existing_rows)
 
+print('Success')
+
 def lambda_handler(event, context):
     # TODO implement
     return {
